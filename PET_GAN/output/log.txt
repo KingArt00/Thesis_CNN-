@@ -1,0 +1,30 @@
+PyTorch version: 1.5.0
+CUDA version: None
+
+         Args         |    Type    |    Value
+--------------------------------------------------
+  model               |  str       |  resnet18
+  cuda                |  bool      |  False
+  train_single        |  bool      |  True
+  train_ensemble      |  bool      |  True
+  model_dir           |  str       |  ./models
+  data_dir            |  str       |  ./cats-dogs-kaggle
+  data_split          |  float     |  0.8
+  cutout              |  bool      |  False
+  cutout_length       |  int       |  64
+  out_dir             |  str       |  output
+  epochs              |  int       |  60
+  batch_size          |  int       |  128
+  lr                  |  float     |  0.01
+  classes             |  int       |  2
+  img_size            |  int       |  224
+  channels            |  int       |  3
+  log_interval        |  int       |  50
+  pretrained_epoch    |  int       |  60
+  seed                |  int       |  1
+Loading data...
+
+Transfer training model resnet18...
+
+Epoch 0, lr: 0.01
+[0/37500]	loss: 0.8087	batch accuracy: 41.4062%
